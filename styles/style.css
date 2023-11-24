@@ -43,7 +43,7 @@ body {
 .color-card {
     width: 18rem;
     height: 20rem;
-    background-color: var(--background);
+    background-color: #fff;
     box-shadow: var(--light-shadow);
     border-radius: var(--border) ;
 }
