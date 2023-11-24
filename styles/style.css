@@ -9,11 +9,17 @@
     --light-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 
     /*fonts*/
+    --body-font: 'Open Sans', sans-serif;
     --title-font: 'Raleway', sans-serif;
 
     /*font sizes*/
     --title: 3rem;
+    --p: 1.3;
 
+}
+
+body {
+    font: var(--body-font);
 }
 
 /*Colors*/
@@ -50,8 +56,10 @@
 }
 
 .color-hex code {
-    background-color: transparent;
-    font-size: 1.2rem;
+    --background: transparent;
+
+    background-color: var(--background);
+    font-size: var(--p);
     margin: 15px;
 }
 
